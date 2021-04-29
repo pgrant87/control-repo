@@ -49,6 +49,7 @@ mod 'puppetlabs-inifile', :latest
 #mod 'puppetlabs-puppet_metrics_collector', '6.1.0'
 mod 'puppet-openvpn', '8.3.0'
 mod 'puppet-epel', :latest
+mod 'puppetlabs/stdlib', :latest
 
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
