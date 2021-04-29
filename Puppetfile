@@ -53,3 +53,6 @@ mod 'puppet-epel', :latest
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
   :branch => '(SUP-2384)'
+mod 'pe_databases',
+  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
+  :branch => 'SUP-2374'
