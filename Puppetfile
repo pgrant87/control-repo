@@ -28,7 +28,7 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-support_tasks', '1.0.9'
 #mod 'puppetlabs-dsc', '1.9.3'
 
-mod 'puppetlabs/resource_api' #
+#mod 'puppetlabs/resource_api' #
 mod 'puppetlabs-puppetserver_gem' #dep. puppetlabs/resource_api
 mod 'puppet-archive', '4.4.0'
 mod 'puppetlabs-puppet_conf', '0.6.0'
