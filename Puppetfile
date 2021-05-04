@@ -51,9 +51,9 @@ mod 'puppet-openvpn', '8.3.0'
 mod 'puppet-epel', :latest
 mod 'puppetlabs/stdlib', :latest
 
-mod 'rsan',
-  :git => 'https://github.com/puppetlabs/RSAN.git',
-  :branch => 'Replica_install_fix'
-mod 'pe_databases',
-  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
-  :branch => 'SUP-2374'
+#mod 'rsan',
+#  :git => 'https://github.com/puppetlabs/RSAN.git',
+#  :branch => 'Replica_install_fix'
+#mod 'pe_databases',
+#  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
+#  :branch => 'SUP-2374'
