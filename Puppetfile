@@ -28,7 +28,6 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-support_tasks', '1.0.9'
 #mod 'puppetlabs-dsc', '1.9.3'
 
- Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile',     '2.2.1'
 #mod 'puppetlabs/stdlib',      '5.0.0'
