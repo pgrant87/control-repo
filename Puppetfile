@@ -54,6 +54,6 @@ mod 'puppetlabs/stdlib', :latest
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
   :branch => 'main'
-#mod 'pe_databases',
-#  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
-#  :branch => 'SUP-2374'
+mod 'pe_databases',
+  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
+  :branch => 'SUP-2374'
