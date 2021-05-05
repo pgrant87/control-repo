@@ -50,6 +50,7 @@ mod 'puppetlabs-inifile', :latest
 mod 'puppet-openvpn', '8.3.0'
 mod 'puppet-epel', :latest
 mod 'puppetlabs/stdlib', :latest
+mod 'puppetlabs-postgresql', :latest
 
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
