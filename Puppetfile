@@ -56,4 +56,4 @@ mod 'rsan',
   :branch => 'main'
 mod 'pe_databases',
   :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
-  :branch => 'SUP-2374'
+  :branch => 'main'
