@@ -28,7 +28,15 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-support_tasks', '1.0.9'
 #mod 'puppetlabs-dsc', '1.9.3'
 
-#mod 'puppetlabs/resource_api' #
+ Modules from the Puppet Forge
+# Versions should be updated to be the latest at the time you start
+#mod 'puppetlabs/inifile',     '2.2.1'
+#mod 'puppetlabs/stdlib',      '5.0.0'
+#modules commented for a test
+mod 'puppetlabs-stdlib', :latest
+mod 'puppetlabs-postgresql', :latest
+# modules for workstation and development laptop setup
+mod 'puppetlabs/resource_api' #
 mod 'puppetlabs-puppetserver_gem' #dep. puppetlabs/resource_api
 mod 'puppet-archive', '4.4.0'
 mod 'puppetlabs-puppet_conf', '0.6.0'
@@ -49,12 +57,13 @@ mod 'puppetlabs-inifile', :latest
 #mod 'puppetlabs-puppet_metrics_collector', '6.1.0'
 mod 'puppet-openvpn', '8.3.0'
 mod 'puppet-epel', :latest
-mod 'puppetlabs/stdlib', :latest
-mod 'puppetlabs-postgresql', :latest
 
+#Support Stuff
+#mod 'puppetlabs-support_tasks', :latest
+
+mod 'puppetlabs-reboot', '2.4.0'
+mod 'support_tasks',
+  :git => 'https://github.com/MartyEwings/support-tasks'
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
-  :branch => 'main'
-mod 'pe_databases',
-  :git => 'https://github.com/MartyEwings/puppetlabs-pe_databases',
-  :branch => 'main'
+  :branch => 'SUP-2412'
