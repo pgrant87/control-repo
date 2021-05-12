@@ -33,36 +33,4 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/stdlib',      '5.0.0'
 #modules commented for a test
 mod 'puppetlabs-stdlib', :latest
-mod 'puppetlabs-postgresql', :latest
-# modules for workstation and development laptop setup
-mod 'puppetlabs/resource_api' #
-mod 'puppetlabs-puppetserver_gem' #dep. puppetlabs/resource_api
-mod 'puppet-archive', '4.4.0'
-mod 'puppetlabs-puppet_conf', '0.6.0'
-mod 'puppetlabs-puppet_agent', :latest
-mod 'puppetlabs-pe_quick_data', :latest
-mod 'puppetlabs-rsync', '1.1.1'
-mod 'puppetlabs-xinetd', :latest
-mod 'puppetlabs-concat', :latest
-mod 'derdanne-nfs', :latest
-mod 'herculesteam-augeasproviders_core', :latest
-mod 'herculesteam-augeasproviders_shellvar', :latest
-mod 'puppetlabs-transition', '0.1.3'
-mod 'puppetlabs-puppet_metrics_dashboard', :latest
-mod 'puppet-grafana', :latest
-mod 'puppet-telegraf', '3.1.0'
-mod 'puppetlabs-apt', :latest
-mod 'puppetlabs-inifile', :latest
-#mod 'puppetlabs-puppet_metrics_collector', '6.1.0'
-mod 'puppet-openvpn', '8.3.0'
-mod 'puppet-epel', :latest
-
-#Support Stuff
-#mod 'puppetlabs-support_tasks', :latest
-
-mod 'puppetlabs-reboot', '2.4.0'
-mod 'support_tasks',
-  :git => 'https://github.com/MartyEwings/support-tasks'
-mod 'rsan',
-  :git => 'https://github.com/puppetlabs/RSAN.git',
-  :branch => 'SUP-2412'
+mod 'puppetlabs-motd', '6.0.0'
