@@ -25,7 +25,7 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-docker', '3.13.0'
 #mod 'puppetlabs-apt', '6.2.1'
 #mod 'puppetlabs-translate', '1.1.0'
-#mod 'puppetlabs-support_tasks', '1.0.9'
+mod 'puppetlabs-support_tasks', '1.0.9'
 #mod 'puppetlabs-dsc', '1.9.3'
 
 # Versions should be updated to be the latest at the time you start
