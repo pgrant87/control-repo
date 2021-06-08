@@ -66,3 +66,4 @@ mod 'puppetlabs-reboot', '2.4.0'
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
   :branch => 'main'
+mod 'puppetlabs-mysql', '11.0.2'
