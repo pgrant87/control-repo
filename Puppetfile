@@ -65,5 +65,5 @@ mod 'puppetlabs-reboot', '2.4.0'
 #  :git => 'https://github.com/MartyEwings/support-tasks'
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
-  :branch => 'main'
+  :branch => 'sup-2384'
 mod 'puppetlabs-java', '7.0.2'
