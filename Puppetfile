@@ -67,3 +67,7 @@ mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
   :branch => 'sup-2384'
 mod 'puppetlabs-java', '7.0.2'
+mod 'dsc-psdscresources', '2.12.0-0-4'
+mod 'dsc-computermanagementdsc', '8.4.0-0-5'
+mod 'puppetlabs-pwshlib', '0.10.0'
+mod "puppetlabs/powershell", '5.0.0'
