@@ -66,6 +66,9 @@ mod 'puppetlabs-reboot', '2.4.0'
 mod 'rsan',
   :git => 'https://github.com/puppetlabs/RSAN.git',
   :branch => 'main'
+mod 'testmodule',
+  :git => 'https://github.com/pgrant87/testmodule.git',
+  :branch => 'main'
 mod 'puppetlabs-java', '7.0.2'
 mod 'dsc-psdscresources', '2.12.0-0-4'
 mod 'dsc-computermanagementdsc', '8.4.0-0-5'
