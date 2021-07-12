@@ -64,7 +64,7 @@ mod 'puppetlabs-reboot', '2.4.0'
 #mod 'support_tasks',
 #  :git => 'https://github.com/MartyEwings/support-tasks'
 mod 'rsan',
-  :git => 'https://github.com/puppetlabs/RSAN.git',
+  :git => 'https://github.com/puppetlabs/RSAN.git'
 mod 'puppetlabs-java', '7.0.2'
 mod 'dsc-psdscresources', '2.12.0-0-4'
 mod 'dsc-computermanagementdsc', '8.4.0-0-5'
